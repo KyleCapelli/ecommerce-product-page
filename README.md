@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# E-commerce-product-page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first ever project that I completed after learning HTML, CSS, JavaScript and React from a coding bootcamp on Udemy during university vacation.
 
-## Available Scripts
+The design comes from Frontend Mentor (https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6) Challenges. The project was to create a simple, dynamic website for an ecommerce page.
 
-In the project directory, you can run:
+I know that this is far from perfect and there is still plenty of fixing up that needs to be done, however, the learning process of creating a project has increased my knowledge of how to build a webpage.
 
-### `npm start`
+### The concepts I learnt:
+* The importance of creating a thorough plan and flow chart of how data will be sent through different components in React.
+  * I became aware of how difficult it is sending data between 2 child components.
+  * I handled this by passing a callback function into the first child as a prop and then getting the data from that child and handling the data in the parent component, then sending it to the second child component.
+  * I understand this process is not very scalable for big projects and I plan to learn React Redux in the coming months as I believe this will be invaluable to helping with this problem.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Making a responsive website with CSS Flexbox
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Using media queries to make a website responsive
 
-### `npm test`
+* Creating animations with CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Creating a responsive navbar
 
-### `npm run build`
+* Creating a responsive image slider
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Using external modules (simple-react-lightbox) and implementing them into my project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Using the terminal and understanding different commands to improve time efficiency.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* DOM Manipulation
 
-### `npm run eject`
+* React Hooks on functional components (useState and useEffect).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I would improve for my next project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Creating a roadmap of how data will be sent from different components which will improve my code structure.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Making my code less cluttered
+  * For example, for each component I would put all of the data for that component in one component file to make it easier to read
 
-## Learn More
+* Cleaning up duplicated CSS code
+  * I know there is a lot of duplicated code in my CSS files so I will definitely do some research on how to minimise this as I progress into future projects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Creating an event listener that when I click outside of the cart menu and mobile navigation bar they will automatically dissapear
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Learning why sometimes I will get a "ReferenceError: browser is not defined" error and how to fix this issue.
+  * If anybody knows I would love to hear :)
 
-### Code Splitting
+* Testing on multiple browsers - I have only tested this on chrome so far
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Conclusion:
+I am very happy with how the first project looks visibly and I think it looks very familiar to the Frontend Mentor design that they wanted implemented. I learnt a lot of invaluable lessons and it is definitely true what developers say about "learning while doing" and "not getting stuck in tutorial hell". In the future I will utilise what I have learnt to improve my projects whilst also de-cluttering my code so it is more organised as I know this is vital, especially when working in a team.
